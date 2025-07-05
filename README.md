@@ -1,19 +1,17 @@
-# 🎈 Blank app template
+# 📦 Suivi Stock & Consommation
 
-A simple Streamlit app template for you to modify!
+Cette application Streamlit permet de suivre les codes-barres scannés et de réaliser un suivi de consommation par produit. Elle offre l'import de catalogues et de fichiers de scans, le cumul journalier et mensuel ainsi que l'export des données.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Comment l'utiliser
 
-### How to run it on your own machine
+1. Installez les dépendances
 
-1. Install the requirements
+```bash
+pip install -r requirements.txt
+```
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+2. Lancez l'application
 
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+streamlit run streamlit_app.py
+```
